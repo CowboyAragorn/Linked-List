@@ -210,22 +210,33 @@ ll.append(5);
 //ll.prepend("9");
 //ll.prepend("10");
 
+console.log('show linked list')
 console.log(ll);
+ll.toString();
+console.log('size of linked list')
 console.log(ll.size());
-//console.log(ll.findHead());
-//console.log(ll.findTail());
-/*
+console.log('Find head of linked list')
+console.log(ll.findHead());
+console.log('Find tail of linked list')
+console.log(ll.findTail());
+console.log('Pop last item off linked list')
 ll.pop();
+console.log('Show linked list, how long is it now?)
 console.log(ll);
+ll.toString();
 console.log(ll.size());
-*/
-//console.log(ll.contains(3));
-//console.log(ll.contains(6))
-//console.log(ll.find(5));
-//ll.toString();
-//console.log(ll.insertAt(10, 5));
-//ll.toString();
-/*
+console.log('Does the linked list contain the number 3?')
+console.log(ll.contains(3));
+console.log('Does the linked list contain the number 6?')
+console.log(ll.contains(6))
+console.log('Find the number 5')
+console.log(ll.find(5));
+console.log('print a string of the linked list')
+ll.toString();
+console.log('insert the number 10 at the fifth index')
+console.log(ll.insertAt(10, 5));
+ll.toString();
+console.log('Remove the item at the third index')
 ll.removeAt(3);
 ll.toString();
-*/
+
