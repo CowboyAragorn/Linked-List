@@ -221,7 +221,7 @@ console.log('Find tail of linked list')
 console.log(ll.findTail());
 console.log('Pop last node off linked list')
 ll.pop();
-console.log('Show linked list, how long is it now?)
+console.log('Show linked list, how long is it now?')
 console.log(ll);
 ll.toString();
 console.log(ll.size());
